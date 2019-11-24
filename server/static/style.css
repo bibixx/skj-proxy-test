@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  text-align: center;
+  padding: 32px;
+}
+
+img, video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+img:first-child {
+  margin-top: 0;
+}
+
+video:first-child {
+  margin-top: 0;
+}
+
+img:last-child {
+  margin-bottom: 0;
+}
+
+video:last-child {
+  margin-bottom: 0;
+}
